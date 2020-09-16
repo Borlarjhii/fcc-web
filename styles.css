@@ -1,0 +1,218 @@
+body{
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  background-color: #f0e1ee;
+  font-family: 'Playfair Display', serif;
+}
+
+/* Header */
+
+#header-img{
+  width: 30%;
+}
+
+#header{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 0;
+  background-color: #f0bbeb;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  overflow: auto;
+}
+
+/*   Navbar and Navbar Links */
+#nav-bar{
+ float: right;
+}
+
+.nav-link{
+  padding: 0 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+ 
+}
+
+/* Form and Email */
+
+.form-landing h2{
+  text-align: center;
+}
+
+#form{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  display: block;
+}
+
+#submit{
+  width: 150px;
+  height: 30px;
+  margin-top: 8px;
+  border-style: solid;
+  background-color: #2b2e2b;
+  color: white;
+}
+
+#email{
+  width: 230px;
+}
+
+/*  Features Section  */
+
+.container{
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* Row class(part of features section but being used all over the screen) */
+
+.row{
+  display: flex;
+}
+
+
+.content{
+  padding-left: 50px;
+
+}
+
+/* Video Section */
+
+.video-iframe {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#video{
+  display: inline-block;
+}
+
+/* Pricing Cards */
+
+.card{
+  border: 1px solid black;
+  width: 300px;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 50px;
+}
+
+.card-head{
+  background-color: #f0bbeb;
+  padding: 20px;
+}
+.card-head p {
+  margin: 0;
+  font-size: 20px;
+}
+
+#pricing{
+  display: flex;
+  justify-content: center;
+}
+
+.p-price-size{
+  font-size: 24px;
+}
+
+button{
+  width: 90px;
+  height: 40px;
+  border-style: solid;
+  background-color: #2b2e2b;
+  color: white;
+}
+
+
+/* Footer */
+
+footer{
+  width: 80%;
+background-color: white;
+  margin: 0 auto;
+}
+
+#footer{
+  text-align: right;
+  padding: 10px 10px 4px 0;
+}
+
+#footer p{
+margin-top: 4px;
+  color: grey;
+}
+
+/* media query */
+
+@media screen and (max-width: 650px) {
+  
+  /*  Header */
+  
+  #header-img{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 5px;
+  }
+  
+  
+/*   Nav links and Navbar */
+  .nav-link{
+    display: flex;
+    justify-content: center;
+    margin: 13px;
+  }
+  
+  #nav-bar{
+    width: 100%;
+  }
+  
+  
+/*   Icons in Features Section*/
+  .fas{
+    visibility: hidden;
+  }
+  
+  
+/*   Video Section */
+  
+  .video-iframe{
+    text-align: center;
+  }
+  
+  #video{
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+/*   Still being used everywhere */
+  .row{
+    display: block;
+  }
+  
+/*   Footer */
+  
+  footer{
+    width: 100%;
+  }
+  
+}
+
+
+@media screen and (max-width: 500px) {
+  .nav-link{
+    
+  }
+}
