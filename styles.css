@@ -43,6 +43,12 @@ body{
   text-align: center;
 }
 
+input {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+
 #form{
   text-align: center;
   margin-top: 20px;
